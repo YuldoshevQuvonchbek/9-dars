@@ -19,19 +19,32 @@ ol {
   padding: 0;
   margin: 0;
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
 body {
   margin: 0;
   background-color: #fff;
   height: 100%;
+  font-family: "Poppins";
 }
 
 .font2 {
 }
 
 .container {
+  max-width: 1150px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
+}
+button {
+  cursor: pointer;
+  border: none;
 }
